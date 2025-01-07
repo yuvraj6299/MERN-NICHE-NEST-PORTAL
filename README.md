@@ -1,4 +1,5 @@
 🌟 Niche Nest Job Portal
+
 Welcome to Niche Nest Job Portal! 🚀
 A powerful and intuitive job portal built with the MERN stack (MongoDB, Express, React, Node.js), designed to bridge the gap between job seekers and employers with modern features and a user-friendly interface.
 
@@ -50,7 +51,6 @@ To run the Niche Nest Job Portal locally, follow these steps:
 
 ```bash  
 git clone https://github.com/yuvraj6299/MERN-NICHE-NEST-PORTAL.git
-cd Jobs-Portal
 cd Niche-Nest  
 ```  
 
