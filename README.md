@@ -49,45 +49,63 @@ To run the Niche Nest Job Portal locally, follow these steps:
 ### Step 1: Clone the Repository  
 
 ```bash  
-git clone https://github.com/yuvraj6299/NicheNestJobPortal.git  
-cd NicheNestJobPortal  
+git clone https://github.com/yuvraj6299/MERN-NICHE-NEST-PORTAL.git
+cd Jobs-Portal
+cd Niche-Nest  
 ```  
 
 ### Step 2: Set Up the Backend  
 
 ```bash  
-# Navigate to the server directory  
-cd server  
+# Navigate to the backend directory  
+cd backend  
 
 # Install backend dependencies  
-yarn install  
+npm install  
 
 # Set up environment variables in a `.env` file  
 # Example .env file:  
-PORT=5000  
-MONGODB_URI=mongodb+srv://<your-mongodb-cluster>  
-JWT_SECRET=mysecretkey  
+PORT=4001  
+
+MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/dbname  
+
+FRONTEND_URL=http://localhost:5173  
+
+JWT_SECRET_KEY=your_jwt_secret_key  
+JWT_EXPIRE=7d  
+COOKIE_EXPIRE=7  
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name  
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret  
+CLOUDINARY_API_KEY=your_cloudinary_api_key  
+
+SMTP_SERVICE=gmail  
+SMTP_MAIL=your_email@gmail.com  
+SMTP_PASSWORD=your_smtp_password  
+SMTP_HOST=smtp.gmail.com  
+SMTP_PORT=465  
+ 
 
 # Start the backend server  
-yarn start  
+npm run dev  
 ```  
 
 ### Step 3: Set Up the Frontend  
 
 ```bash  
 # Navigate to the frontend directory  
-cd client  
+cd frontend  
 
 # Install frontend dependencies  
-yarn install  
+npm install  
 
 # Start the frontend development server  
-yarn start  
+npm run dev 
 ```  
 
 ### Step 4: Run the Application  
 
-- Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.  
+- Open your browser and navigate to [http://localhost:5173/](http://localhost:5173/) to access the application.  
 
 ---
 
@@ -99,14 +117,6 @@ We welcome contributions to the **Niche Nest Job Portal**! To contribute:
 2. Create a new branch for your feature or bug fix.  
 3. Commit your changes and submit a pull request.  
 4. Ensure your contributions align with our Code of Conduct.  
-
----
-
-## 📄 License  
-
-This project is licensed under the MIT License. See the LICENSE file for more details.  
-
----
 
 ## 👩‍💻 Happy Coding! 👨‍💻  
 
