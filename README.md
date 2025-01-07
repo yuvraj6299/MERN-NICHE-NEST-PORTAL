@@ -1,1 +1,1 @@
-# MERN-NICHE-NEST-PORTAL
+# Niche-Nest job portal
