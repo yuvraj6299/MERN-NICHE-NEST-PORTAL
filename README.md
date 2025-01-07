@@ -1,6 +1,6 @@
-# 📄 Niche Nest Job Portal  
-
-Welcome to the **Niche Nest Job Portal** repository! This project is a modern, dynamic job portal built with the MERN stack (MongoDB, Express, React, Node.js). It offers a seamless user experience for job seekers and employers, providing all the essential features for a functional and responsive job portal.  
+🌟 Niche Nest Job Portal
+Welcome to Niche Nest Job Portal! 🚀
+A powerful and intuitive job portal built with the MERN stack (MongoDB, Express, React, Node.js), designed to bridge the gap between job seekers and employers with modern features and a user-friendly interface.
 
 ---
 
@@ -37,8 +37,8 @@ Welcome to the **Niche Nest Job Portal** repository! This project is a modern, d
 
 ## 🚀 Live Links  
 
-- **Frontend**: [Niche Nest Job Portal Frontend](https://nichnestjob.netlify.app)  
-- **Backend**: [Niche Nest Job Portal Backend](https://nichenest-backend.vercel.app)  
+- **Frontend**: [Niche Nest Job Portal Frontend](https://niche-nest-job-portal.netlify.app)  
+- **Backend**: [Niche Nest Job Portal Backend](https://dashboard.render.com/web/srv-ct5apetds78s73bmrcb0)  
 
 ---
 
@@ -49,7 +49,7 @@ To run the Niche Nest Job Portal locally, follow these steps:
 ### Step 1: Clone the Repository  
 
 ```bash  
-git clone https://github.com/YourUsername/NicheNestJobPortal.git  
+git clone https://github.com/yuvraj6299/NicheNestJobPortal.git  
 cd NicheNestJobPortal  
 ```  
 
