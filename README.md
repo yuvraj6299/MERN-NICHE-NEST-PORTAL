@@ -1,11 +1,12 @@
 🌟 Niche Nest Job Portal
 
 Welcome to Niche Nest Job Portal! 🚀
+
 A powerful and intuitive job portal built with the MERN stack (MongoDB, Express, React, Node.js), designed to bridge the gap between job seekers and employers with modern features and a user-friendly interface.
 
 ---
 
-## 🌟 Features  
+## 📋 Features  
 
 ### For Job Seekers  
 - **Job Search by Niche Skills**: Easily find jobs tailored to your expertise and preferences.  
